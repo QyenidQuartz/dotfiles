@@ -12,13 +12,13 @@ servers = (
   },
   {
     address = "localhost";
-    username = "omii"
+    username = "omii";
     chatnet = "BitlBee";
     port = "6667";
     use_ssl = "no";
     ssl_verify = "no";
     autoconnect = "yes";
-  },
+  }
 );
 
 chatnets = {
@@ -34,8 +34,8 @@ chatnets = {
   };
 };
 
-channels = (
-  { name = "#lobby"; chatnet = "EsperNet"; autojoin = "No"; },
+channels = ( 
+  { name = "#lobby"; chatnet = "EsperNet"; autojoin = "No"; }
 );
 
 aliases = {

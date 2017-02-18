@@ -1,0 +1,1 @@
+.irssi/scripts/fix_slackirc.pl
