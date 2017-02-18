@@ -1,0 +1,51 @@
+{
+	"segments": {
+		"right": [
+			{
+				"function": "powerline.segments.common.players.spotify",
+				"name": "player",
+				"args": {
+					"state_symbols": {
+						"fallback": "♫♫♫",
+						"play":     "♫ ▶",
+						"pause":    "♫▮▮",
+						"stop":     "♫ ■"
+					},
+					"format":  "{state_symbol} {artist} - {title}"
+				}
+			},
+			{
+				"function": "powerline.segments.common.wthr.weather",
+				"args": {
+        				"location_query": "san diego, california"
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+         			"args": {
+					"format": "%A"
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+         			"args": {
+					"format": "%Y%m%d"
+				}
+			},
+			{
+				"function": "powerline.segments.common.time.date",
+				"name": "time",
+         			"args": {
+					"format": "%H%M",
+					"istime": true
+				}
+			},
+			{
+				"function": "powerline.segments.common.bat.battery",
+				"args": {
+					"gamify": true
+				}
+			}
+		]
+	}
+}

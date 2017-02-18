@@ -11,6 +11,7 @@ brew 'homebrew/dupes/grep'
 
 # brew CLI utils
 brew 'awscli'
+brew 'bitlbee'
 brew 'ddate'
 brew 'fish'
 brew 'git'

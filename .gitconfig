@@ -1,8 +1,8 @@
 # This is Git's per-user configuration file.
 [user]
-    name = 
-    email =
-    signingkey =
+    name = Omii Moore
+    email = qyenid@quartz.zone
+    signingkey = 6872A839
 
 
 [color]
@@ -49,7 +49,8 @@
 
 [core]
     autocrlf = input
-    pager = diff-highlight | diff-so-fancy | less --tabs=1,5 -R
+    pager = vimdiff
+
 [push]
     default = simple
 
