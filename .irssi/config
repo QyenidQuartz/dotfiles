@@ -2,7 +2,7 @@ servers = (
   {
     address = "mindtouch.irc.slack.com";
     username = "omii";
-    password = "mindtouch.rVf7zqHP44z0goHGs8st";
+    password = "";
     chatnet = "MindTouchSlack";
     port = "6667";
     autoconnect = "yes";
@@ -30,7 +30,7 @@ chatnets = {
   };
   BitlBee = {
     type = "IRC";
-    autosendcmd = "/msg &bitlbee identify jcXagS^zebzT6mD&cZgp!!Rzj76O0F";
+    autosendcmd = "/msg &bitlbee identify ";
   };
 };
 
