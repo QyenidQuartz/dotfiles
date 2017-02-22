@@ -1,6 +1,6 @@
 {
 	"common": {
-		"term_truecolor": true 
+		"term_truecolor": true
 	},
 	"ext": {
 		"ipython": {
@@ -45,7 +45,7 @@
 			}
 		},
 		"wm": {
-			"colorscheme": "default",
+			"colorscheme": "solarized",
 			"theme": "default"
 		}
 	}
